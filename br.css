@@ -1,0 +1,12 @@
+body{font-size: 64px}
+/*body{background-image:linear-gradient(to right,black,blue)}*/
+body:not(.menu){font:sans-sarif; line-height:1; color:white;background-image:linear-gradient(to right,blue,cyan)}
+/*.menufontarialcolormagenta*/
+.menu{line-height:1;color:yellow;}
+ul.main_menu li{display:none}
+ul.main_menu:hover li{display:block}
+a:link{color:violet}
+a:visited{color:yellow}
+a:hover{color:green}
+a:active{color:orange}
+a:focus{outline:dotted medium}
